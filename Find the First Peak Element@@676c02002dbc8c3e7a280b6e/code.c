@@ -21,6 +21,7 @@ int main(){
         }
         else{
             printf("%d",arr[i-1]);
+            break;
         }
     }
 }
