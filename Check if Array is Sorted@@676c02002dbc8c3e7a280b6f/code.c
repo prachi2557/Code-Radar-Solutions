@@ -13,17 +13,17 @@ int main(){
     }  
     for(y=0;y<i;y++){     
         for(x=y+1;x<i;x++){
-            if (arr[x]<=arr[y]){
+            if (arr[x]<arr[y]){
                 int temp=arr[y];
                 arr[y]=arr[x];
                 arr[x]=temp;
             }
         }
     }
-    if(arr2[i]==arr[i]){
-        printf("Sorted");
+    if(arr2[i]!=arr[i]){
+        printf("Not Sorted");
     }
     else{
-        printf("Not Sorted");
+        printf("Sorted");
     }
 }
