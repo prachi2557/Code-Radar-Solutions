@@ -2,10 +2,8 @@
 #include<stdio.h>
 int main(){
     int i;
-    printf("Enter the size of array : ");
     scanf("%d",&i);
     int arr[i],x,y;
-    printf("Enter the elements of array : ");
     for(x=0;x<i;x++){
         scanf("%d",&arr[x]);
     }            
