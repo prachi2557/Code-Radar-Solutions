@@ -12,10 +12,15 @@ int main(){
     // }        
     for(int a=0;a<i;a++){
         if(a!=0 && a!=i-1){
+            int peak;
         if (arr[a]>arr[a+1] && arr[a]>arr[a-1]){
-        printf("%d",arr[a]);
+        peak =arr[a];
         break;
         }
+        if(peak)
+        printf("%d",peak);
+        else
+        printf("-1");
         }
         else if(a==0 && arr[0]>arr[1]){
             printf("%d",arr[a]);
@@ -23,10 +28,6 @@ int main(){
         }
         else if(a==i-1 && arr[i-1]>arr[i-2]){
             printf("%d",arr[i-1]);
-            break;
-        }
-        else{
-            printf("-1");
             break;
         }
     }
