@@ -18,6 +18,8 @@ int main(){
                 arr[y]=arr[x];
                 arr[x]=temp;
             }
+            else
+            pass;
         }
     }
     if(arr2[i]==arr[i]){
