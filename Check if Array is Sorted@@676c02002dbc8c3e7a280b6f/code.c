@@ -20,17 +20,10 @@ int main(){
             }
         }
     }
-    for(x=0;x<i;x++){
-        printf("%d ",arr2[x]);
-    }  
-    printf("\n");
-    for(x=0;x<i;x++){
-        printf("%d ",arr[x]);
-    }  
-    if(arr2[i]!=arr[i]){
-        printf("Not Sorted");
+    if(arr2[i]==arr[i]){
+        printf("Sorted");
     }
     else{
-        printf("Sorted");
+        printf("Not Sorted");
     }
 }
