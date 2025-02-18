@@ -3,5 +3,5 @@
 int main(){
     char s1[50],s2[50];
     scanf("%s %s",&s1,&s2);
-    printf("%s and %s");
+    printf("%s and %s",s1,s2);
 }
