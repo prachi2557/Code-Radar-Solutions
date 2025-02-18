@@ -20,8 +20,9 @@ int main(){
         if (arr[a]>arr[a+1] && arr[a]>arr[a-1]){
         printf("%d",arr[a]);
          break;
+         else
+         printf("-1");
+         break;
         }
     }
-    printf("-1");
-    break;
 }}
