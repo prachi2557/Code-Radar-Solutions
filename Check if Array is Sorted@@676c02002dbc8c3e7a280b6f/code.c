@@ -20,7 +20,7 @@ int main(){
         }
     }
     if(arr2[i]==arr[i]){
-        printf("Sorted")
+        printf("Sorted");
     }
     else{
         printf("Not Sorted");
