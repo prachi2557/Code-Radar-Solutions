@@ -11,6 +11,6 @@ int main(){
     scanf("%d",&m);
     for(int a=0;a<n;a++){
         if m==arr[a]
-        printf("%d",m)
+        printf("%d",m);
     }
 }
