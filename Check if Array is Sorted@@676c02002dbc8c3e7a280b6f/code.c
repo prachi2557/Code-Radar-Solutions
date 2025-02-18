@@ -18,11 +18,9 @@ int main(){
                 arr[y]=arr[x];
                 arr[x]=temp;
             }
-            else
-            continue;
         }
     }
-    if(arr2[i]==arr[i]){
+    if(arr[i]==arr2[i]){
         printf("Sorted");
     }
     else{
