@@ -9,7 +9,10 @@ int main(){
     for(x=0;x<i;x++){
         scanf("%d",&arr[x]);
     }            
-    int arr2[i]=arr[i];                                  
+    int arr2[i];
+    for(x=0;x<i;x++){
+        arr2[x]=arr[x];
+    }  
     for(y=0;y<i;y++){     
         for(x=y+1;x<i;x++){
             if (arr[x]>arr[y]){
