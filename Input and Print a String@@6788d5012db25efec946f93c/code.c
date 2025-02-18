@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int main(){
-    char s;
+    string s;
     scanf("%s",&s);
     printf("%s",s);
 }
