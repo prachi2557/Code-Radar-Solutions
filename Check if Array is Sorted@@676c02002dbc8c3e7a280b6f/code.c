@@ -11,6 +11,9 @@ int main(){
     for(x=0;x<i;x++){
         arr2[x]=arr[x];
     }  
+    if(arr2[i]==arr[i])
+    printf("Sorted");
+    else{
     for(y=0;y<i;y++){     
         for(x=y+1;x<i;x++){
             if (arr[x]<arr[y]){
@@ -25,5 +28,6 @@ int main(){
     }
     else{
         printf("Not Sorted");
+    }
     }
 }
