@@ -25,5 +25,8 @@ int main(){
             printf("%d",arr[i-1]);
             break;
         }
+        else{
+            printf("-1");
+        }
     }
 }
