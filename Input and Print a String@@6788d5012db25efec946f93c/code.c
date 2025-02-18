@@ -1,7 +1,6 @@
 #include<stdio.h>
-#include<string.h>
 int main(){
-    string s;
+    char s[50];
     scanf("%s",&s);
     printf("%s",s);
 }
