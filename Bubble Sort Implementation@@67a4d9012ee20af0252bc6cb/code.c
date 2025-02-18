@@ -9,9 +9,8 @@ void bubbleSort(array arr,int n){
         }
     }
 }
-;
 void printArray(array arr,int n){
     for(int a=0;a<num;a++){
         printf("%d ",arr[a]);
     }
-};
+}
