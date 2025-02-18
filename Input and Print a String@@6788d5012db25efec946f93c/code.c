@@ -1,7 +1,7 @@
-#include<iostream>
-using namespace std;
+#include<stdio.h>
+#include<string.h>
 int main(){
-    string s;
+    string s[];
     scanf("%s",&s);
     printf("%s",s);
 }
