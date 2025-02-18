@@ -1,17 +1,17 @@
 // Your code here...
 void bubbleSort(array arr,int n){
     smallest=arr[0];
-    for(int a=0;a<n;a++){
-        for(int b=a+1;b<num;b++){
-        if(arr[a]<smallest){
-        int temp=arr[0];
-        smallest=arr[a];
-        arr[a]=temp;
+    for(int a=0;a<n-1;a++){
+        for(int b=0;n-a-1;b++){
+        if(arr[j]<arr[j+1]){
+        int temp=arr[j];
+        arr[j]=arr[j+1];
+        arr[j+1]=temp;
         }}
     }
 }
 void printArray(array arr,int n){
-    for(int a=0;a<num;a++){
+    for(int a=0;a<n;a++){
         printf("%d ",arr[a]);
     }
 }
