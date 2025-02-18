@@ -19,7 +19,7 @@ int main(){
     for(int a=1;a<i-1;a++){
         if (arr[a]>arr[a+1] && arr[a]>arr[a-1]){
         printf("%d",arr[a]);
-         break;
         }
+        break;
     }
 }}
