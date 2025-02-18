@@ -19,7 +19,7 @@ int main(){
                 arr[x]=temp;
             }
             else
-            pass;
+            continue;
         }
     }
     if(arr2[i]==arr[i]){
