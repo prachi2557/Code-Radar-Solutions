@@ -12,7 +12,7 @@ int main(){
     // }        
     for(int a=0;a<i;a++){
         if(a!=0 && a!=i-1){
-            int peak=0;
+        int peak=0;
         if (arr[a]>arr[a+1] && arr[a]>arr[a-1]){
         peak =arr[a];
         break;
