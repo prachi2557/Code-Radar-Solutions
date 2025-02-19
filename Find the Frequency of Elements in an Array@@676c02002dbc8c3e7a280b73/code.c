@@ -17,12 +17,12 @@ int main(){
                     freq[b]=0;
                 }
             }
+            freq[a]=count;
         }
     }   
-    freq[i]=count;
     for(int n=0;n<i;n++){
-        if(freq[i] !=0){
-            printf("%d %d\n",arr[i],freq[i]);
+        if(freq[n] !=0){
+            printf("%d %d\n",arr[n],freq[n]);
         }
     }
 }
