@@ -19,6 +19,7 @@ int main(){
         yes=1;
         else
         yes=0;
+        break;
     }
     if(yes)
     printf("YES");
