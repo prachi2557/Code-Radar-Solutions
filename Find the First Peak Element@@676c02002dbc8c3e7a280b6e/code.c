@@ -25,6 +25,6 @@ int main(){
         break;
     }
     }
-    if peak==0
+    if (peak==0)
     printf("-1");
 }
