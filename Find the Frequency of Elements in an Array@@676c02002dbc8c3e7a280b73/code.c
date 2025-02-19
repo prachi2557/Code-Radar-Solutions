@@ -8,6 +8,7 @@ int main(){
         scanf("%d\n",&arr[x]);
     }    
     int unique[i];
+    int size=0;
     for(int a=0;a<i;a++){
         int found=0;
         for(int b=0;b<i;b++){
@@ -16,7 +17,6 @@ int main(){
             else
             found=1;
         }
-        int size=0;
         if(found)
         unique[size]=arr[a];
         size++;
