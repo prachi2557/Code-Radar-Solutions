@@ -7,12 +7,20 @@ int main(){
     for(int x=0;x<i;x++){
         scanf("%d\n",&arr[x]);
     }   
-    int larg=-1;
-    for(int a=0;a<i;a++){
-        if(arr[a]%2==0){
-            if(arr[a]>larg)
-            larg=arr[a];
+    for(int y=0;y<i;y++){     
+        for(int x=y+1;x<i;x++){
+            if (arr[x]>arr[y]){
+                int temp=arr[y];
+                arr[y]=arr[x];
+                arr[x]=temp;
+            }
         }
-    } 
+    }
+    int larg=-1;
+    for(int y=0;y<i;y++){
+        if(arr[y]%2==0)
+        larg=arr[y];
+        break;
+    }
     printf("%d",larg);
 }
