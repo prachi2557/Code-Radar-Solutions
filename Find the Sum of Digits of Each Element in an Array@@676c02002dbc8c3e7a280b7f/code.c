@@ -1,5 +1,6 @@
 // Your code here...
 #include<stdio.h>
+#include<math.h>
 int main(){
     int i;
     scanf("%d",&i);
@@ -9,13 +10,12 @@ int main(){
     }    
     for(int a=0;a<i;a++){
         int last,sum=0;
-        if(arr[a]<0){
-            arr[a]*=-1;
-        while(arr[a]!=0){
-            last=arr[a]%10;
+        int num=abs(arr[0]);
+        while(num!=0){
+            last=num%10;
             sum+=last;
-            arr[a]/=10;
+            num/=10;
         }
-        printf("%d ",sum);}
+        printf("%d ",sum);
     }
 }
