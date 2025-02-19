@@ -9,7 +9,7 @@ int main(){
     }    
     int sum=0;
     for(int a=0;a<i;a++){
-        num=arr[a];
+        int num=arr[a];
         if(num >= 2){
         int is_prime=1;
         for(a=2;a<num;a++){
