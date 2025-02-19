@@ -14,9 +14,14 @@ int main(){
         }
     }
     for(int y=0;y<i;y++){
+        int yes=0;
         if(arr[y]==rev[y])
-        printf("YES");
+        yes=1;
         else
-        printf("NO");
+        yes=0;
     }
+    if(yes)
+    printf("YES");
+    else
+    printf("NO");
 }
