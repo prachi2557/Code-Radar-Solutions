@@ -10,7 +10,7 @@ int main(){
     }    
     for(int a=0;a<i;a++){
         int last,sum=0;
-        //int num=abs(arr[a]);
+        int num;//=abs(arr[a]);
         while(num!=0){
             last=num%10;
             sum+=last;
