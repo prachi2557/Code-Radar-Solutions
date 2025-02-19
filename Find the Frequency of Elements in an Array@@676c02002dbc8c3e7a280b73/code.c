@@ -17,7 +17,7 @@ int main(){
                     freq[b]=0;
                 }
             }
-            freq[a]=count;
+        freq[a]=count;
         }
     }   
     for(int n=0;n<i;n++){
