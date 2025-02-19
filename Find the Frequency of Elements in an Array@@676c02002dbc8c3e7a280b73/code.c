@@ -10,16 +10,15 @@ int main(){
     int unique[i];
     int size=0;
     for(int a=0;a<i;a++){
-        int found=0;
+        int found=1;
         for(int b=0;b<i;b++){
-            if(a!=b && arr[a]==arr[b])
+            if(a!=b && arr[a]==arr[b]){
             found=0;
-            else
-            found=1;
+            break;}
         }
-        if(found==0)
+        if(found==0){
         unique[size]=arr[a];
-        size++;
+        size++;}
     }
     for(int x=0;x<size;x++){
         printf("%d ",unique[x]);
