@@ -8,7 +8,7 @@ int main(){
         scanf("%d\n",&arr[x]);
     }   
     int rev[i];
-    for(int a=i-1;a<0;a--){
+    for(int a=i-1;a>=0;a--){
         for(int b=0;b<i;b++){
             rev[b]=arr[a];
         }
