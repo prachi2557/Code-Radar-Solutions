@@ -18,9 +18,9 @@ int main(){
     }
     int larg=-1;
     for(int y=0;y<i;y++){
-        if(arr[y]%2==0)
+        if(arr[y]%2==0){
         larg=arr[y];
-        break;
+        break;}
     }
     printf("%d",larg);
 }
