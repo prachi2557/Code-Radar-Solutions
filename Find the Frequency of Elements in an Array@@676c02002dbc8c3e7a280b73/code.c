@@ -17,7 +17,6 @@ int main(){
                 unique[size]=arr[a];
                 size++;
                 found=0;
-                break;
                 }
             }
         }
