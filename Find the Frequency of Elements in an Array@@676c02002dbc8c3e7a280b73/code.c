@@ -21,7 +21,7 @@ int main(){
         unique[size]=arr[a];
         size++;
     }
-    for(int x=0;x<i;x++){
+    for(int x=0;x<sizeof(unique);x++){
         printf("%d ",unique[x]);
     }   
 }
