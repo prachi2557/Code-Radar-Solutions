@@ -7,12 +7,21 @@ int main(){
     for(int x=0;x<i;x++){
         scanf("%d\n",&arr[x]);
     }    
+    int unique[i];
     for(int a=0;a<i;a++){
-        int temp=0;
-        for(int b=a;b<i-a;b++){
-            if (arr[b]==arr[a])
-            temp++;
+        int found=0;
+        for(int b=0;b<i;b++){
+            if(a!=b && arr[a]==arr[b])
+            found=0;
+            else
+            found=1;
         }
-        printf("%d %d\n",arr[a],temp);
+        int size=0;
+        if(found)
+        unique[size]=arr[a];
+        size++;
     }
+    for(int x=0;x<i;x++){
+        printf("%d ",unique[x]);
+    }   
 }
