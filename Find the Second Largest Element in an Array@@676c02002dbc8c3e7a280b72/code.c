@@ -16,5 +16,8 @@ int main(){
             }
         }
     }
-    printf("%d",arr[1]);
+    if(i>1){
+    printf("%d",arr[1]);}
+    else
+    printf("-1");
 }
