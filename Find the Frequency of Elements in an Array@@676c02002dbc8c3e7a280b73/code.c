@@ -17,7 +17,7 @@ int main(){
             else
             found=1;
         }
-        if(found)
+        if(found==0)
         unique[size]=arr[a];
         size++;
     }
