@@ -16,10 +16,9 @@ int main(){
         printf("%d",arr[i-1]);
          break;
     }
-    for(int a=1;a<i-1;a++){
-        if (arr[a]>arr[a+1] && arr[a]>arr[a-1]){
+    if (arr[a]>arr[a+1] && arr[a]>arr[a-1]){
         printf("%d",arr[a]);
-        }
         break;
+    }
     }
 }}
