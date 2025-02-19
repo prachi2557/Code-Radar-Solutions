@@ -15,8 +15,8 @@ int main(){
             if(a!=b && arr[a]==arr[b]){
                 if(found=1){
             unique[size]=arr[a];
-            size++;
-            found=0;}
+            size++;}
+            found=0;
             }
         }
         if(found==1){
