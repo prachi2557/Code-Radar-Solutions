@@ -13,6 +13,6 @@ int main(){
             if(arr[a]>larg)
             larg=arr[a];
         }
-        printf("%d",larg);
     } 
+    printf("%d",larg);
 }
