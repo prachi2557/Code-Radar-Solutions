@@ -15,11 +15,11 @@ int main(){
     }
     int yes=0;
     for(int y=0;y<i;y++){
-        if(arr[y]==rev[y])
-        yes=1;
-        else
+        if(arr[y]==rev[y]){
+        yes=1;}
+        else{
         yes=0;
-        break;
+        break;}
     }
     if(yes==1)
     printf("YES");
