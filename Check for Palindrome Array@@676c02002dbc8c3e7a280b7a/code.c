@@ -21,7 +21,7 @@ int main(){
         yes=0;
         break;
     }
-    if(yes)
+    if(yes==1)
     printf("YES");
     else
     printf("NO");
