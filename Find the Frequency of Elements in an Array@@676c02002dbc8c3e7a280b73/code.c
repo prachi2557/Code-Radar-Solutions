@@ -16,8 +16,9 @@ int main(){
             found=0;
             break;}
         }
-        if(found==0){
-        unique[size++]=arr[a];
+        if(found==1){
+        unique[size]=arr[a];
+        size++;
         }
     }
     for(int x=0;x<size;x++){
