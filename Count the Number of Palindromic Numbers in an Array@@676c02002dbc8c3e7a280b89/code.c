@@ -11,6 +11,7 @@ int main(){
     for(int y=0;y<i;y++){
     int num=arr[y],remainder,reversedNum=0,originalNum;
     originalNum=num;
+    if(num>0){
     while (num!=0){           
         remainder=num%10;      
         reversedNum=reversedNum*10+remainder;     
@@ -18,6 +19,6 @@ int main(){
     }
     if(originalNum==reversedNum)
     sum++;
-    }
+    }}
     printf("%d",sum);
 }
