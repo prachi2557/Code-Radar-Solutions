@@ -7,8 +7,9 @@ int main(){
     for(int x=0;x<i;x++){
         scanf("%d\n",&arr[x]);
     }    
+    int sum=0;
     for(int y=0;y<i;y++){
-    int num=arr[y],remainder,reversedNum=0,originalNum,sum=0;
+    int num=arr[y],remainder,reversedNum=0,originalNum;
     originalNum=num;
     while (num!=0){           
         remainder=num%10;      
