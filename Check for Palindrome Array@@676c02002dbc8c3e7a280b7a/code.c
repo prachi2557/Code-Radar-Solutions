@@ -13,8 +13,8 @@ int main(){
             rev[b]=arr[a];
         }
     }
+    int yes=0;
     for(int y=0;y<i;y++){
-        int yes=0;
         if(arr[y]==rev[y])
         yes=1;
         else
