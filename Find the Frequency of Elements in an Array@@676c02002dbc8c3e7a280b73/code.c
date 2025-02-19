@@ -17,8 +17,8 @@ int main(){
             break;}
         }
         if(found==0){
-        unique[size]=arr[a];
-        size++;}
+        unique[size++]=arr[a];
+        }
     }
     for(int x=0;x<size;x++){
         printf("%d ",unique[x]);
