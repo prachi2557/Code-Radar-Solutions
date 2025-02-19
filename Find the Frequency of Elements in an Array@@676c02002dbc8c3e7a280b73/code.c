@@ -6,26 +6,23 @@ int main(){
     int arr[i];
     for(int x=0;x<i;x++){
         scanf("%d",&arr[x]);
+        freq[x]=-1;
     }    
-    int unique[i];
-    int size=0;
     for(int a=0;a<i;a++){
-        int found=1;
-        for(int b=0;b<i;b++){
-            if(a!=b && arr[a]==arr[b]){
-                if(found==1){
-                unique[size]=arr[a];
-                size++;
-                found=0;
+        if(freq[a]==-1){
+            int count = 1;
+            for(int b=a+1;b<i;b++){
+                if(arr[a]==arr[b]){
+                    count++;
+                    freq[b]=0;
                 }
             }
         }
-        if(found==1){
-        unique[size]=arr[a];
-        size++;
+    }   
+    freq[i]=count;
+    for(int n=0;n<i;n++){
+        if(freq[i] !=0){
+            printf("%d %d\n",arr[i],freq[i]);
         }
     }
-    for(int x=0;x<size;x++){
-        printf("%d ",unique[x]);
-    }   
 }
