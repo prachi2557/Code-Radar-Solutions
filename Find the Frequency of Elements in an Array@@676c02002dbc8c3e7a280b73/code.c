@@ -14,7 +14,8 @@ int main(){
         for(int b=0;b<i;b++){
             if(a!=b && arr[a]==arr[b]){
             found=0;
-            break;}
+            break;
+            }
         }
         if(found==1){
         unique[size]=arr[a];
