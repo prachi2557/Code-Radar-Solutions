@@ -22,7 +22,7 @@ int main(){
         }
     }   
     int largest=i/2;
-    int temp=0;
+    int temp=-1;
     for(int n=0;n<i;n++){
         if(freq[n] !=0){
             if(freq[n]>largest){
@@ -31,5 +31,8 @@ int main(){
             }
         }
     }
-    printf("%d",arr[temp]);
+    if(temp!=-1){
+    printf("%d",arr[temp]);}
+    else
+    printf("-1");
 }
