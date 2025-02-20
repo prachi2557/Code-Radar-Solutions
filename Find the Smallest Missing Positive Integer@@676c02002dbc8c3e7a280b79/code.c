@@ -8,7 +8,7 @@ int main(){
         scanf("%d",&arr[x]);
     }
     int larg=arr[0];
-    for(int y=0;y<i;y++){
+    for(int y=1;y<i;y++){
         if(arr[y]>larg){
             larg=arr[y];
         }
