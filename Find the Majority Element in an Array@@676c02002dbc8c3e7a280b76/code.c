@@ -25,9 +25,9 @@ int main(){
     for(int n=0;n<i;n++){
         if(freq[n] !=0){
             if(freq[n]>largest){
-                largest=arr[n];
+                largest=freq[n];
             }
         }
     }
-    printf("%d",largest);
+    printf("%d",arr[n]);
 }
