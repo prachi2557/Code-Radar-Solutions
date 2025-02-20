@@ -22,8 +22,8 @@ int main(){
         }
     }   
     for(int n=0;n<i;n++){
-        if(freq[n] == 1){
-            printf("%d",arr[n]);
+        if(freq[n] == 0){
+            printf("%d ",arr[n]);
         }
     }
 }
