@@ -13,5 +13,7 @@ int main(){
             larg=arr[y];
         }
     }
-    printf("%d",larg);
+    if(larg>0){
+        printf("1");
+    }
 }
