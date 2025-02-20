@@ -22,12 +22,14 @@ int main(){
         }
     }   
     int largest=freq[0];
+    int temp=0;
     for(int n=0;n<i;n++){
         if(freq[n] !=0){
             if(freq[n]>largest){
                 largest=freq[n];
+                temp=n;
             }
         }
     }
-    printf("%d",arr[n]);
+    printf("%d",arr[temp]);
 }
