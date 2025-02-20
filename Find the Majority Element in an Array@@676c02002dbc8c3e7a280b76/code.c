@@ -25,7 +25,7 @@ int main(){
     for(int n=0;n<i;n++){
         if(freq[n] !=0){
             if(freq[n]>largest){
-                largest=freq[n];
+                largest=arr[n];
             }
         }
     }
