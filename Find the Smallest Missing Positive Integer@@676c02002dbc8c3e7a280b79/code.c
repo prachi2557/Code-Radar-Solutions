@@ -18,7 +18,8 @@ int main(){
     }
     else{
         int sum=0;
-        int run=larg*(larg+1)/2;
+        int run;
+        run=larg*(larg+1)/2;
         printf("%d",run);
         for(int x=0;x<i;x++){
         if(arr[x]>0){
