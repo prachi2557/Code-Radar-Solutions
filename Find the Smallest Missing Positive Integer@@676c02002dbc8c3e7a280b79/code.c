@@ -13,10 +13,10 @@ int main(){
             larg=arr[y];
         }
     }
+    printf("%d",larg);
     if(larg<0){
         printf("1");
     }
-    printf("%d",larg);
     else{
         int sum=0;
         int run;
