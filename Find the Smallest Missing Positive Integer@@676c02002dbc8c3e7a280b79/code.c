@@ -13,7 +13,7 @@ int main(){
             larg=arr[y];
         }
     }
-    if(larg>0){
+    if(larg<0){
         printf("1");
     }
 }
