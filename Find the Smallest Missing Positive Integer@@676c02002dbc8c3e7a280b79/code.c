@@ -16,6 +16,7 @@ int main(){
     if(larg<0){
         printf("1");
     }
+    printf("%d",larg);
     else{
         int sum=0;
         int run;
