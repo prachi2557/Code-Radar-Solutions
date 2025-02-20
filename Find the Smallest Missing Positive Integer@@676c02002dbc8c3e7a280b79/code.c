@@ -14,4 +14,11 @@ int main(){
         }
     }
     printf("%d",larg);
+    int arr2[larg];
+    for(int a=0;a<larg;a++){
+        arr2[a]=a+1;
+    }
+    for(int p=0;p<larg;p++){
+        printf("%d ",arr2[p]);
+    }
 }
