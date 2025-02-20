@@ -21,7 +21,7 @@ int main(){
         freq[a]=count;
         }
     }   
-    int largest=freq[0];
+    int largest=i/2;
     int temp=0;
     for(int n=0;n<i;n++){
         if(freq[n] !=0){
