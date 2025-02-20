@@ -14,19 +14,4 @@ int main(){
         }
     }
     printf("%d",larg);
-    if(larg<0){
-        printf("1");
-    }
-    else{
-        int sum=0;
-        int run;
-        run=larg*(larg+1)/2;
-        printf("%d",run);
-        for(int x=0;x<i;x++){
-        if(arr[x]>0){
-            sum+=arr[x];
-        }
-        printf("%d",run-sum);
-    }
-    }
 }
