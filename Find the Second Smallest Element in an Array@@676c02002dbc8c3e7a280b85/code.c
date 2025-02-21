@@ -4,27 +4,22 @@ int main(){
     int i;
     scanf("%d",&i);
     int arr[i];
-    int freq[i];
     for(int x=0;x<i;x++){
         scanf("%d",&arr[x]);
-        freq[x]=-1;
     }    
-    for(int a=0;a<i;a++){
-        if(freq[a]==-1){
-            for(int b=a+1;b<i;b++){
-                if(arr[a]==arr[b]){
-                    freq[b]=0;
-                }
-            }
-        }
-    }  
     int uni[i];
+    int index=0;
     for(int x=0;x<i;x++){
-        if(freq[x]!=0){
-            for(int y=0;y<i;y++){
-                uni[y]=arr[x];
+        int isdup=0;
+        for(int y=0;y<index;y++){
+            if(arr[x]==uni[y]){
+                isdup=1;
+                break;
             }
         }
+        if(!=isdup)[
+            uni[index++]=arr[x];
+        ]
     } 
     for(int x=0;x<i;x++){
         printf("%d ",uni[x]);
