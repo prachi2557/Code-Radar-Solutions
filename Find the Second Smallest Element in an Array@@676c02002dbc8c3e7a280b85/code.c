@@ -30,7 +30,7 @@ int main(){
             }
         }
     }
-    if(i>2){
+    if(i>1){
     printf("%d",uni[1]);}
     else
     printf("-1");
