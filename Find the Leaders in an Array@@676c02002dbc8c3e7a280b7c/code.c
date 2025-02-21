@@ -12,4 +12,5 @@ int main(){
             printf("%d ",arr[x]);
         }
     }
+    printf("%d",arr[i-1]);
 }
