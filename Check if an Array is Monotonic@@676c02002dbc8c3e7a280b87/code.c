@@ -36,14 +36,14 @@ int main(){
     int sorted1=1;
     for (int x = 0; x < i; x++) {
         if (arr[x] != arr2[x]) {
-            sorted = 0;
+            sorted1 = 0;
             break;
         }
     }
     int sorted2=1;
     for (int x = 0; x < i; x++) {
         if (arr3[x] != arr2[x]) {
-            sorted = 0;
+            sorted2 = 0;
             break;
         }
     }
