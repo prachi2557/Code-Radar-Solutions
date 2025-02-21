@@ -27,7 +27,7 @@ int main(){
         if(freq[n] !=0){
             if(freq[n]>larg)
             larg=freq[n];
-            int n1=n;
+            n1=n;
         }
     }
     printf("%d\n",arr[n1]);
