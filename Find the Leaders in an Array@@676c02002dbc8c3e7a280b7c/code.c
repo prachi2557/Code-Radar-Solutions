@@ -8,9 +8,17 @@ int main(){
         scanf("%d",&arr[a]);
     }
     for(int x=0;x<i-1;x++){
-        if(arr[x]>arr[x-1] && arr[x]>arr[x+1]){
+        int larg=1;
+        for(int y=x;y<i;y++){
+            if(arr[x]<arr[y]){
+                larg=0;
+                break;
+            }
+        }
+        if(larg==1){
             printf("%d ",arr[x]);
         }
+        
     }
     printf("%d",arr[i-1]);
 }
