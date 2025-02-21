@@ -20,14 +20,15 @@ int main(){
             }
         freq[a]=count;
         }
-    }   
+    }  
+    int yes=0; 
     for(int n=0;n<i;n++){
         if(freq[n] !=0 && freq[n]!=1){
             printf("%d",arr[n]);
+            yes=1;
             break;
         }
-        else{
-        printf("-1");
-    }
     } 
+    if(yes==0)
+    printf("-1");
 }
