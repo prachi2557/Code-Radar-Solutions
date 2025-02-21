@@ -9,7 +9,7 @@ int main(){
     }
     for(int a=0;a<i;a++){
         int larg=-1;
-        for(int b=a+1;b<i;b++){
+        for(int b=a;b<i;b++){
             if(arr[b]>a){
                 larg=arr[b];
             }
