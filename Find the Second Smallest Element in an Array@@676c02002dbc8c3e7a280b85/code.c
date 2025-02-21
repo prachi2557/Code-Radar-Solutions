@@ -17,24 +17,24 @@ int main(){
                 break;
             }
         }
-        if(!=isdup){
+        if(isdup==0){
             uni[index++]=arr[x];
         }
     } 
     for(int x=0;x<index;x++){
         printf("%d ",uni[x]);
     }
-    // for(int y=0;y<i;y++){     
-    //     for(int x=y+1;x<i;x++){
-    //         if (arr[x]<arr[y]){
-    //             int temp=arr[y];
-    //             arr[y]=arr[x];
-    //             arr[x]=temp;
-    //         }
-    //     }
-    // }
-    // if(i>1 && arr[0]!=arr[1]){
-    // printf("%d",arr[1]);}
-    // else
-    // printf("-1");
+    for(int y=0;y<i;y++){     
+        for(int x=y+1;x<i;x++){
+            if (uni[x]<uni[y]){
+                int temp=uni[y];
+                uni[y]=uni[x];
+                uni[x]=temp;
+            }
+        }
+    }
+    if(i>1){
+    printf("%d",uni[1]);}
+    else
+    printf("-1");
 }
