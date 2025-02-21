@@ -17,7 +17,7 @@ int main(){
                 break;
             }
         }
-        if(!=isdup){
+        if(isdup==0){
             uni[index++]=arr[x];
         }
     } 
