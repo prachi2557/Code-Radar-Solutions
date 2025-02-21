@@ -12,9 +12,8 @@ int main(){
     for(int a=0;a<i;a++){
         for(int b=a+1;b<i;b++){
             if(arr[a]+arr[b]==m){
-                printf("%d %d",arr[a],arr[b]);
+                printf("%d %d\n",arr[a],arr[b]);
             }
         }
-        printf("\n");
     }
 }
