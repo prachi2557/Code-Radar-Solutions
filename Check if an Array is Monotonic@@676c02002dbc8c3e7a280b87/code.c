@@ -48,9 +48,9 @@ int main(){
         }
     }
     if(sorted1==1 || sorted2==0){
-        printf("Sorted");
+        printf("NO");
     }
     else{
-        printf("Not Sorted");
+        printf("YES");
     }
 }
