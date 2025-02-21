@@ -47,7 +47,7 @@ int main(){
             break;
         }
     }
-    if(sorted1==1 || sorted2==0){
+    if(sorted1==1 || sorted2==1){
         printf("NO");
     }
     else{
