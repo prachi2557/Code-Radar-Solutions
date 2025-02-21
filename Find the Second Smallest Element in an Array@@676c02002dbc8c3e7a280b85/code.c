@@ -21,9 +21,6 @@ int main(){
             uni[index++]=arr[x];
         }
     } 
-    for(int x=0;x<index;x++){
-        printf("%d ",uni[x]);
-    }
     for(int y=0;y<i;y++){     
         for(int x=y+1;x<i;x++){
             if (uni[x]<uni[y]){
