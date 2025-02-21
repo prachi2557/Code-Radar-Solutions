@@ -10,7 +10,7 @@ int main(){
     }       
     int larg=0;
     for(int a=0;a<i;a++){
-        for(int b=a;b<i;b++){
+        for(int b=a+1;b<i;b++){
             if(arr[a]*arr[b]>larg);
             larg=arr[a]*arr[b];
         }
