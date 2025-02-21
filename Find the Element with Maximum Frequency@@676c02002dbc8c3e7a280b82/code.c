@@ -32,12 +32,12 @@ int main(){
         }
     }   
     int larg=1;
-    int n1;
+    int n1=0;
     for(int n=0;n<i;n++){
         if(freq[n] !=0){
-            if(freq[n]>larg)
+            if(freq[n]>larg){
             larg=freq[n];
-            n1=n;
+            n1=n;}
         }
     }
     printf("%d",arr[n1]);
