@@ -7,8 +7,8 @@ int main(){
     while(arr[len]!='\0'){
         len++;
     }
+    int len2=len-1;
     for(int a=len-1;a>=0;a--){
-        int len2=len-1;
         int temp=arr[a];
         arr[a]=arr[len2];
         arr[len2]=temp;
