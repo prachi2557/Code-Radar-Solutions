@@ -7,6 +7,10 @@ int main(){
     while(arr[len]!='\0'){
         len++;
     }
+    int arr2[len];
+    for(int a=0;a<len;a++){
+        arr2[a]=arr[a];
+    }
     int len2=len-1;
     for(int a=0;a<len2;a++){
         int temp=arr[a];
@@ -14,5 +18,10 @@ int main(){
         arr[len2]=temp;
         len2--;
     }
-    printf("%s",arr);
+    if(arr2==arr){
+        printf("Yes");
+    }
+    else{
+        printf("No");
+    }
 }
