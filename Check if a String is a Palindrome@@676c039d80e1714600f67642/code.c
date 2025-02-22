@@ -12,7 +12,7 @@ int main(){
         int temp=arr[a];
         arr[a]=arr[len2];
         arr[len2]=temp;
-        len2--
+        len2--;
     }
     printf("%s",arr);
 }
