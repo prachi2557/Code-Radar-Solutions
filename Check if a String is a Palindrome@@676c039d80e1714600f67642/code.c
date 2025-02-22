@@ -20,7 +20,7 @@ int main(){
     }
     int ispal=0;
     for(int x=0;x<len;x++){
-        if(arr2[a]==arr[a]){
+        if(arr2[x]==arr[x]){
             ispal=1;
         }
         else{
