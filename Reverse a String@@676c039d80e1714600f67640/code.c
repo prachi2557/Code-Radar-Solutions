@@ -1,9 +1,9 @@
 // Your code here...
 #include<stdio.h>
+#include<string.h>
 int main(){
     char arr[50];
-    scanf("%s",&arr[50]);
-    for(int a=(int)(sizeof(arr)-1);a>0;a++){
-        printf("%c",arr[a]);
-    }
+    scanf("%s",&arr);
+    strrev(arr);
+    printf("%s",arr);
 }
