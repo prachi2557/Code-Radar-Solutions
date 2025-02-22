@@ -1,6 +1,5 @@
 // Your code here...
 #include<stdio.h>
-#include<string.h>
 int main(){
     char arr[50];
     int len=0;
