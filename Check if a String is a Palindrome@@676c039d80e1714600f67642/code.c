@@ -18,7 +18,16 @@ int main(){
         arr[len2]=temp;
         len2--;
     }
-    if(arr2==arr){
+    int ispal=0;
+    for(int x=0;x<len;x++){
+        if(arr2[a]==arr[a]){
+            ispal=1;
+        }
+        else{
+            break;
+        }
+    }
+    if(ispal==1){
         printf("Yes");
     }
     else{
