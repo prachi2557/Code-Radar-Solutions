@@ -24,6 +24,7 @@ int main(){
             ispal=1;
         }
         else{
+            ispal=0;
             break;
         }
     }
