@@ -7,5 +7,7 @@ int main(){
     while(arr[len]!='\0'){
         len++;
     }
-    printf("%d",len);
+    for(int a=len-1;a>0;a--){
+        printf("%c",arr[a]);
+    }
 }
