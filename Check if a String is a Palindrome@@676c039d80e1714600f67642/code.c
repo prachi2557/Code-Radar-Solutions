@@ -8,11 +8,10 @@ int main(){
         len++;
     }
     int len2=len-1;
-    for(int a=0;a<len;a++){
+    for(int a=0;a<len;a++,len2--){
         int temp=arr[a];
         arr[a]=arr[len2];
         arr[len2]=temp;
-        len2--;
     }
     printf("%s",arr);
 }
