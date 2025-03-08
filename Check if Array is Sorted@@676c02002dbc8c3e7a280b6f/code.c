@@ -30,7 +30,7 @@ int main(){
     if(sorted==1){
         printf("Sorted");
     }
-    else{
-        printf("Not Sorted");
-    }
+    // else{
+    //     printf("Not Sorted");
+    // }
 }
