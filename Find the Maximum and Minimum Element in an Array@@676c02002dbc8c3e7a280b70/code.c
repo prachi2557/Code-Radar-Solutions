@@ -17,5 +17,5 @@ int main(){
         if(arr[a]>greatest)
         greatest=arr[a];
     }
-    printf("%d %d",smallest,greatest);
+    //printf("%d %d",smallest,greatest);
 }
