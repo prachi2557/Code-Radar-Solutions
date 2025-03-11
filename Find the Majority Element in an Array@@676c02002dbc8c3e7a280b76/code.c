@@ -33,6 +33,6 @@ int main(){
     }
     if(temp!=-1){
     printf("%d",arr[temp]);}
-    else
-    printf("-1");
+    // else
+    // printf("-1");
 }
