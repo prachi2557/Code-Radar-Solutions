@@ -16,6 +16,6 @@ int main(){
     }
     if(pal)
     printf("YES");
-    else
-    printf("NO");
+    // else
+    // printf("NO");
 }
