@@ -16,6 +16,6 @@ int main(){
             sum+=last;
             arr[a]/=10;
         }
-        printf("%d ",sum);
+        //printf("%d ",sum);
     }
 }
