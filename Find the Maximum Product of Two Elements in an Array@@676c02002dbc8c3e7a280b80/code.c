@@ -15,5 +15,5 @@ int main(){
             larg=arr[a]*arr[b];
         }
     }    
-    printf("%d",larg); 
+    //printf("%d",larg); 
 }
