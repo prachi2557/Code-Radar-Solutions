@@ -16,7 +16,7 @@ int main(){
     for(int b=ZeroIndexNum;b<i;b++){
         arr[b]=0;
     }
-    for(int x=0;x<i;x++){
-        printf("%d ",arr[x]);
-    }
+    // for(int x=0;x<i;x++){
+    //     printf("%d ",arr[x]);
+    // }
 }
