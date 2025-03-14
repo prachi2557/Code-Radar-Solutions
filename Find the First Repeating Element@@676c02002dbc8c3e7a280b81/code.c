@@ -29,6 +29,6 @@ int main(){
             break;
         }
     } 
-    if(yes==0)
-    printf("-1");
+    // if(yes==0)
+    // printf("-1");
 }
